@@ -7,7 +7,7 @@
 	<script type="text/javascript">
 
 		alert("사용자의 정보를 조회하니, 원치 않으면 사이트를 끄세요..");
-		$.getJSON('https://ipapi.co/jason/',function(data){
+		$.getJSON('https://ipapi.co/json/',function(data){
 			var ressssult = JSON.stringity(data,null,2);
 			console.log(ressssult);
 			var userAgent=navigator.userAgent.toLowerCase();
